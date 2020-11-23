@@ -23,6 +23,7 @@ pip install shlex
 ```
 
 ##### Download Historical Data
+Warning : Only 1m, 5m and 1h timeframe are available for now, other make the app crash
 ```
 [Cryptodl] download -p <platform-name> -s <symbol> -db <db-file> [-t <table-name> -f <timeframe>]
 ```

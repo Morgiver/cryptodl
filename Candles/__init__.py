@@ -47,9 +47,9 @@ class DBCandleManager:
         results = self.db.select(f'SELECT * FROM {self.table} WHERE date > {start} ORDER BY date LIMIT {offset}')
         return results
 
-    def get_candles(self, since, limit=1000):
+    def get_candles(self):
         self.create_table()
-        results = self.db.select(f'SELECT * FROM {self.table} WHERE date > {since} ORDER BY date DESC LIMIT {limit}')
+        results = self.db.select(f'SELECT * FROM {self.table}')
         return results
 
 

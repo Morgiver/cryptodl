@@ -11,6 +11,7 @@ pip install shlex
 ```
 
 ## Commands list :
+
 #####List All Exchange Platform :
 ```
 [Cryptodl] list_platform

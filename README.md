@@ -45,7 +45,7 @@ Get the last Candle in the specified db-file
 ```
 
 ##### Get Candles
-Get All candle from the specified db-file
+Get All candles from the specified db-file (be carefull some db-file can be large)
 ```
-[Cryptodl] get_candle -db <db-file> [-t <table>]
+[Cryptodl] get_candles -db <db-file> [-t <table>]
 ```

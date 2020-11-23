@@ -53,10 +53,10 @@ class BobotShell(Cmd):
             "BTC : 3G85t2xqaogBZJ5Y7XdKirocwf2DNTuZiN \n"
     prompt = '[Cryptodl] '
 
-    def do_get_candle(self, args):
-        """Get Candle
-    Use :  get_candle -db <db-file> [-t <table>]
-    Description : get candle from a platform and symbol
+    def do_get_candles(self, args):
+        """Get Candles
+    Use :  get_candles -db <db-file> [-t <table>]
+    Description : get candles from a db file
         """
         try:
             args = ShellArgumentsParser(args)
